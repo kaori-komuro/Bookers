@@ -9,4 +9,4 @@
 <% end %>
 <br>
 <%= link_to "show", book_path(@book.id), class: "show_2" %> |
-<a href="/books/new", class:"back" >Back</a>
+<%= link_to "back", new_book_path(@book.id), class: "back" %>

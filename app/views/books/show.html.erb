@@ -15,4 +15,4 @@
 <p><%= @book.body %></p>
 
 <%= link_to "edit", edit_book_path(@book.id), class: "edit_2" %> |
-<a href="/books/new" class: "back" >Back</a>
+<%= link_to "back", new_book_path(@book.id), class: "back" %>
